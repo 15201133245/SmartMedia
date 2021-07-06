@@ -12,7 +12,7 @@ import java.io.UnsupportedEncodingException;
  */
 public class Message implements Serializable {
      private String data;
-
+     private String test;
     public Message(String data) {
         this.data = data;
     }
